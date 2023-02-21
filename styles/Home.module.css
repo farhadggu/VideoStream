@@ -1,0 +1,49 @@
+.main {
+  width: 90%;
+  box-shadow: 0px 0px 20px 13px rgb(0 0 0 / 10%);
+  margin: 50px auto;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #32364c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.mainTitle{
+  width: 100%;
+  text-align: left;
+  color: #fff;
+  font-size: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.videoBtn {
+  background-color: #12162b !important;
+  padding: 12px !important;
+  color: #fff !important;
+  font-size: 16px !important;
+  width: 175px;
+}
+
+.successBtn {
+  background-color: rgb(21, 98, 21) !important;
+  padding: 10px !important;
+  color: #fff !important;
+  font-size: 18px !important;
+}
+
+.mainInput{
+  padding: 13px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.mainVideo{
+  width: 100%;
+  border-radius: 10px;
+  margin-left: 20px;
+}

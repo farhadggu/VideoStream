@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "IRANYekanWeb";
+  src: local("IRANYekanWeb"),
+    url(../fonts/iranyekanwebregularfanum.woff) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: IRANYekanWeb, sans-serif !important;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #272a39;
+}
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999 !important;
+  background-color: #cccccc !important;
+  color: #666666 !important;
+}
